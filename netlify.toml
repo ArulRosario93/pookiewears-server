@@ -1,0 +1,9 @@
+  [build]
+    functions = "functions" 
+
+  [[redirects]]
+    # Intercept requests that start with /api/
+    from = "/api/*"
+    
+    # Redirect them internally to the handler function, maintaining the path (the :splat part)
+    to = "/.netlify/functions/:splat"
