@@ -5,3 +5,5 @@ pookiewears-52a2f-firebase-adminsdk-fbsvc-cf17d854d3.json
 node_modules/
 .env
 connection.js
+# Local Netlify folder
+.netlify

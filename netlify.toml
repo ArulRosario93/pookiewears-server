@@ -1,5 +1,8 @@
   [build]
-    functions = "functions" 
+    functions = "functions"
+  
+  [dev]
+    functions = "/functions"
 
   [[redirects]]
     # Intercept requests that start with /api/
